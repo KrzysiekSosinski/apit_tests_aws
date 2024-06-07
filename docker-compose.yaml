@@ -1,0 +1,76 @@
+version: '3.5'
+
+services:
+  filing:
+    platform: linux/amd64
+    image: ${APP_NAME}:${SHA_TAG}
+    container_name: ${APP_NAME}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - JAVA_TOOL_OPTIONS="-agentlib:jdwp=transport=dt_socket,address=0.0.0.0:${JAVA_DEBUG_PORT},server=y,suspend=n"
+      - SPRING_PROFILES_ACTIVE=runtime-test, localstack
+      - AWS_REGION=us-east-1
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://database:5432/filing
+    ports:
+      - "${APP_PORT}:8080"
+      - "${JAVA_DEBUG_PORT}:${JAVA_DEBUG_PORT}"
+    networks:
+      - frontend
+      - backend
+    depends_on:
+      - database
+      - ec
+      - localstack
+
+  ec:
+    container_name: ecmock
+    image: ${AWS_ACCOUNT_ID_CICD}.dkr.ecr.${AWS_REGION}.amazonaws.com/ngfp1/docker-images/eurocontrol-mock-service:8b091315
+    ports:
+      - "1234:1234"
+    networks:
+      - frontend
+
+  database:
+    container_name: postgres
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ngfpSQL2023!
+      PGDATA: /data/postgres
+    healthcheck:
+      test: [CMD, pg_isready, -U, postgres]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - postgres-db:/data/postgres
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - backend
+
+  localstack:
+    image: localstack/localstack
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=sns,s3,events,sqs
+    volumes:
+      - ./init-aws.sh:/etc/localstack/init/ready.d/init-aws.sh
+    networks:
+      - frontend
+      - backend
+
+
+networks:
+  frontend:
+    name: frontend
+  backend:
+    name: backend
+
+volumes:
+  postgres-db:
+    driver: local
