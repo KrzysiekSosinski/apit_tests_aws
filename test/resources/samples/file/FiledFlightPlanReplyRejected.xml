@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns6:FiledFlightPlanReply xmlns:ns2="http://www.fixm.aero/app/ffice/1.1" xmlns:ns3="http://www.fixm.aero/base/4.3"
+                          xmlns:ns4="http://www.fixm.aero/flight/4.3"
+                          xmlns:ns5="http://www.eurocontrol.int/nm/fixm/ext/1.5"
+                          xmlns:ns6="eurocontrol/cfmu/b2b/FficeServices">
+    <requestReceptionTime>2024-01-16 17:07:36</requestReceptionTime>
+    <requestId>B2B_CUR:71429026</requestId>
+    <sendTime>2024-01-16 17:07:36</sendTime>
+    <status>OK</status>
+    <data>
+        <submissionResponse_v1_1>
+            <ns2:referencedMessageIdentifier codeSpace="urn:uuid">42FB697B-8BE5-4398-BBBD-C24040275D6D
+            </ns2:referencedMessageIdentifier>
+            <ns2:submissionStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                  xsi:type="ns2:FficeSR_SubmissionStatusType">
+                <ns2:explanation>(R)EFPM236: ESTIMATED OFF BLOCK DATE AND TIME NOT IN THE ACCEPTABLE RANGE: 160507 TO 211707</ns2:explanation>
+                <ns2:explanation>(R)EFPM234: ESTIMATED OFF BLOCK DATE AND TIME IS NOT WITHIN ACCEPTABLE RANGE, AFTER FILING TIME. (EOBD)</ns2:explanation>
+                <ns2:explanation>(R)EFPM34: AIRAC DATA NOT AVAILABLE (EOBD)</ns2:explanation>
+                <ns2:value>REJ</ns2:value>
+            </ns2:submissionStatus>
+            <ns2:type>SUBMISSION_RESPONSE</ns2:type>
+        </submissionResponse_v1_1>
+    </data>
+</ns6:FiledFlightPlanReply>

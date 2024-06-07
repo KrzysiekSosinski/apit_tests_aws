@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ffice:TrialReply xmlns:ns12="http://www.fixm.aero/app/ffice/1.1" xmlns:ns11="http://www.eurocontrol.int/nm/fixm/ext/1.5" xmlns:ns10="http://www.fixm.aero/flight/4.3" xmlns:ns9="http://www.fixm.aero/base/4.3" xmlns:cm="eurocontrol/cfmu/b2b/CommonServices" xmlns:ffice="eurocontrol/cfmu/b2b/FficeServices" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <requestReceptionTime>2023-09-12 11:24:58</requestReceptionTime>
+  <requestId>B2B_CUR:16146853</requestId>
+  <sendTime>2023-09-12 11:24:58</sendTime>
+  <status>OK</status>
+  <data>
+    <submissionResponse_v1_1>
+      <ns12:flight xsi:type="ns10:FficeSR_FlightType">
+        <ns10:flightIdentification xsi:type="ns10:FficeSR_FlightIdentificationType">
+          <ns10:gufi creationTime="2023-09-05T13:18:45Z" namespaceDomain="FULLY_QUALIFIED_DOMAIN_NAME" namespaceIdentifier="BOEING.COM" codeSpace="urn:uuid">BD5198D0-5E76-4FB1-B1E0-DB1106E671E9</ns10:gufi>
+        </ns10:flightIdentification>
+      </ns12:flight>
+      <ns12:referencedMessageIdentifier codeSpace="urn:uuid">6BB1A361-4024-4979-B6CF-D91B780E1040</ns12:referencedMessageIdentifier>
+      <ns12:submissionStatus xsi:type="ns12:FficeSR_SubmissionStatusType">
+        <ns12:explanation>(R)EFPM236: ESTIMATED OFF BLOCK DATE AND TIME NOT IN THE ACCEPTABLE RANGE: 112324 TO 171124</ns12:explanation>
+        <ns12:value>REJ</ns12:value>
+      </ns12:submissionStatus>
+      <ns12:type>SUBMISSION_RESPONSE</ns12:type>
+    </submissionResponse_v1_1>
+  </data>
+</ffice:TrialReply>

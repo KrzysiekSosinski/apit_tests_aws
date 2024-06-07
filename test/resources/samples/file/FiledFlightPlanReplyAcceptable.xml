@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns6:FiledFlightPlanReply xmlns:ns2="http://www.fixm.aero/app/ffice/1.1" xmlns:ns3="http://www.fixm.aero/base/4.3"
+                          xmlns:ns4="http://www.fixm.aero/flight/4.3"
+                          xmlns:ns5="http://www.eurocontrol.int/nm/fixm/ext/1.5"
+                          xmlns:ns6="eurocontrol/cfmu/b2b/FficeServices">
+    <requestReceptionTime>2024-02-22 13:25:20</requestReceptionTime>
+    <requestId>B2B_CUR:14702374</requestId>
+    <sendTime>2024-02-22 13:25:20</sendTime>
+    <status>OK</status>
+    <data>
+        <filingStatus_v1_1>
+            <ns2:filingStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                              xsi:type="ns2:FficeFS_FilingStatusType">
+                <ns2:value>ACCEPTABLE</ns2:value>
+            </ns2:filingStatus>
+            <ns2:flight xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns4:FficeFS_FlightType">
+                <ns4:arrival xsi:type="ns4:FficeFS_ArrivalType"/>
+                <ns4:departure xsi:type="ns4:FficeFS_DepartureType"/>
+                <ns4:extension xsi:type="ns5:NmFlightExtensionType">
+                    <ns5:ifpsIdentifier>AT04675349</ns5:ifpsIdentifier>
+                </ns4:extension>
+                <ns4:flightIdentification xsi:type="ns4:FficeFS_FlightIdentificationType">
+                    <ns4:aircraftIdentification>BOE1234</ns4:aircraftIdentification>
+                    <ns4:gufi creationTime="2024-02-22T13:25:19Z" namespaceDomain="OPERATING_AGENCY_DESIGNATOR"
+                              namespaceIdentifier="BOEING.COM" codeSpace="urn:uuid">6BFCB202-DB63-4658-8D3B-3E37E010B44D
+                    </ns4:gufi>
+                </ns4:flightIdentification>
+                <ns4:routeTrajectoryGroup xsi:type="ns4:FficeFS_RouteTrajectoryGroupContainerType">
+                    <ns4:agreed xsi:type="ns4:FficeFS_RouteTrajectoryGroupType">
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">0.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:aerodromeReferencePoint>
+                                    <ns3:locationIndicator>EPGD</ns3:locationIndicator>
+                                </ns3:aerodromeReferencePoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">152.39999389648438</ns3:altitude>
+                                </ns4:level>
+                                <ns4:pointProperty>
+                                    <ns4:propertyType>AIRPORT_REFERENCE_LOCATION</ns4:propertyType>
+                                </ns4:pointProperty>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.3775000000435 18.466111111125883</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:absoluteTime>2024-02-22T14:33:00Z</ns4:absoluteTime>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentDeparture>
+                                    <ns3:designator>VIZAN1H</ns3:designator>
+                                </ns4:standardInstrumentDeparture>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">1000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">304.79998779296875</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.380833333376835 18.453055555570316</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H00M11S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentDeparture>
+                                    <ns3:designator>VIZAN1H</ns3:designator>
+                                </ns4:standardInstrumentDeparture>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">2000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">609.5999755859375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.38416666671017 18.439722222236973</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H00M32S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentDeparture>
+                                    <ns3:designator>VIZAN1H</ns3:designator>
+                                </ns4:standardInstrumentDeparture>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">12000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">2133.60009765625</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.4166666667102 18.307777777792424</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H01M57S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentDeparture>
+                                    <ns3:designator>VIZAN1H</ns3:designator>
+                                </ns4:standardInstrumentDeparture>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">15000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>GD511</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">2560.320068359375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.42638888893243 18.268055555570168</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H02M20S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentDeparture>
+                                    <ns3:designator>VIZAN1H</ns3:designator>
+                                </ns4:standardInstrumentDeparture>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">16000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">2743.199951171875</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.43111111115465 18.25527777779238</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H02M29S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentDeparture>
+                                    <ns3:designator>VIZAN1H</ns3:designator>
+                                </ns4:standardInstrumentDeparture>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">28000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">3962.39990234375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.48722222226581 18.10083333334781</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H03M39S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentDeparture>
+                                    <ns3:designator>VIZAN1H</ns3:designator>
+                                </ns4:standardInstrumentDeparture>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">35000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">4572.0</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.520000000043616 18.01055555556996</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H04M18S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentDeparture>
+                                    <ns3:designator>VIZAN1H</ns3:designator>
+                                </ns4:standardInstrumentDeparture>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">51000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">5791.2001953125</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.59444444448812 17.803611111125353</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H05M44S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentDeparture>
+                                    <ns3:designator>VIZAN1H</ns3:designator>
+                                </ns4:standardInstrumentDeparture>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">61000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">6400.7998046875</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.640833333377046 17.673888888903026</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H06M34S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentDeparture>
+                                    <ns3:designator>VIZAN1H</ns3:designator>
+                                </ns4:standardInstrumentDeparture>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">63000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>VIZAN</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">6522.72021484375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.65000000004372 17.647777777791894</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H06M44S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:routeDesignator>T673</ns4:routeDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">72000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">7010.39990234375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.69194444448819 17.529444444458466</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H07M31S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:routeDesignator>T673</ns4:routeDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">86000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">7620.0</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.75694444448825 17.345000000013876</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H08M35S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:routeDesignator>T673</ns4:routeDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">101000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">8229.599609375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.82611111115497 17.14666666668038</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H09M50S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:routeDesignator>T673</ns4:routeDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">116000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">8686.7998046875</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.895000000043915 16.94750000001356</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H10M56S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:routeDesignator>T673</ns4:routeDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">130000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>XERPA</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">9083.0400390625</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>54.95916666671063 16.76111111112452</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H11M59S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">145000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">9601.2001953125</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.08361111115517 16.659166666679994</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H13M07S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">149000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">9753.599609375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.11694444448853 16.631944444457748</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H13M25S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">168000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>LARMA</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">10363.2001953125</ns3:altitude>
+                                </ns4:level>
+                                <ns4:pointProperty>
+                                    <ns4:propertyType>TOP_OF_CLIMB</ns4:propertyType>
+                                </ns4:pointProperty>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.27444444448866 16.501666666679867</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H14M50S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeChange xsi:type="ns4:FficeFS_RouteChangeType">
+                                <ns4:level xsi:type="ns4:FficeFS_CruisingLevelChangeType">
+                                    <ns4:level>
+                                        <ns3:altitude uom="FT">11000.0</ns3:altitude>
+                                    </ns4:level>
+                                </ns4:level>
+                                <ns4:speed xsi:type="ns4:FficeFS_CruisingSpeedChangeType">
+                                    <ns4:speed uom="KT">330</ns4:speed>
+                                </ns4:speed>
+                            </ns4:routeChange>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">177000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">9753.599609375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.28388888893311 16.360277777790866</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H15M23S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">185000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">9144.0</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.29194444448868 16.23444444445743</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H15M55S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">203000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">8229.599609375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.31000000004425 15.951111111123872</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H17M02S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">225000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">7010.39990234375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.33111111115537 15.604722222234706</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H18M34S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">237000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">6400.7998046875</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.34222222226649 15.416111111123444</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H19M22S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">241000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">6156.9599609375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.345833333377605 15.353333333345615</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H19M41S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">248000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">5791.2001953125</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.3522222222665 15.24305555556775</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H20M11S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">292000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">3352.800048828125</ns3:altitude>
+                                </ns4:level>
+                                <ns4:pointProperty>
+                                    <ns4:propertyType>TCP_VERTICAL</ns4:propertyType>
+                                </ns4:pointProperty>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.38944444448875 14.550555555567195</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H23M41S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:otherRouteDesignator>DIRECT</ns4:otherRouteDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">321000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>ELVIX</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">3352.800048828125</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.41194444448877 14.09416666667794</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H26M32S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:routeDesignator>L975</ns4:routeDesignator>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">355000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>TIDVU</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">3352.800048828125</ns3:altitude>
+                                </ns4:level>
+                                <ns4:pointProperty>
+                                    <ns4:propertyType>TOP_OF_DESCENT</ns4:propertyType>
+                                </ns4:pointProperty>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.41138888893322 13.557500000010846</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H29M52S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">366000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">2743.199951171875</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.443055555599905 13.375000000010699</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H30M47S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">372000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>ESJAH</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">2438.39990234375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:pointProperty>
+                                    <ns4:propertyType>TCP_VERTICAL</ns4:propertyType>
+                                </ns4:pointProperty>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.46000000004437 13.275277777788398</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H31M25S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">390000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">2438.39990234375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.44000000004435 12.950277777788138</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H33M14S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">391000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>CH641</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">2438.39990234375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.438888888933235 12.932222222232568</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H33M20S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">398000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">2438.39990234375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:pointProperty>
+                                    <ns4:propertyType>TCP_VERTICAL</ns4:propertyType>
+                                </ns4:pointProperty>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.46888888893326 12.805277777788021</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H34M03S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">399000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>CH636</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">2407.919921875</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.473055555599935 12.787222222232451</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H34M09S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">408000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>CH630</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">2011.6800537109375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.55666666671111 12.835277777788045</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H35M05S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">415000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>CH625</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">1706.8800048828125</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.627222222266724 12.88611111112142</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H35M49S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">419000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">1524.0</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.658333333377854 12.934722222232569</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H36M14S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">427000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:designatedPoint>
+                                    <ns3:designator>ADOVI</ns3:designator>
+                                </ns3:designatedPoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">1219.199951171875</ns3:altitude>
+                                </ns4:level>
+                                <ns4:pointProperty>
+                                    <ns4:propertyType>TCP_VERTICAL</ns4:propertyType>
+                                </ns4:pointProperty>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.720833333377904 13.032222222232647</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H37M11S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">438000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">1219.199951171875</ns3:altitude>
+                                </ns4:level>
+                                <ns4:pointProperty>
+                                    <ns4:propertyType>TCP_VERTICAL</ns4:propertyType>
+                                </ns4:pointProperty>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.69277777782233 12.928611111121453</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H38M32S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">454000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">609.5999755859375</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.651666666711186 12.778055555565777</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H40M31S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">460000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">304.79998779296875</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.636111111155614 12.721666666676843</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H41M45S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">464000.0</ns4:alongRouteDistance>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">152.39999389648438</ns3:altitude>
+                                </ns4:level>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.625833333377834 12.684166666676813</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H42M24S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                            <ns4:routeDesignatorToNextElement>
+                                <ns4:standardInstrumentArrival>
+                                    <ns3:designator>TIDVU2C</ns3:designator>
+                                </ns4:standardInstrumentArrival>
+                            </ns4:routeDesignatorToNextElement>
+                        </ns4:element>
+                        <ns4:element xsi:type="ns4:FficeFS_RouteTrajectoryElementType">
+                            <ns4:alongRouteDistance uom="M">467000.0</ns4:alongRouteDistance>
+                            <ns4:elementStartPoint>
+                                <ns3:aerodromeReferencePoint>
+                                    <ns3:locationIndicator>EKCH</ns3:locationIndicator>
+                                </ns3:aerodromeReferencePoint>
+                            </ns4:elementStartPoint>
+                            <ns4:point4D xsi:type="ns4:FficeFS_TrajectoryPoint4DType">
+                                <ns4:level>
+                                    <ns3:altitude uom="M">0.0</ns3:altitude>
+                                </ns4:level>
+                                <ns4:pointProperty>
+                                    <ns4:propertyType>AIRPORT_REFERENCE_LOCATION</ns4:propertyType>
+                                </ns4:pointProperty>
+                                <ns4:position srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <ns3:pos>55.618055555600044 12.656111111121236</ns3:pos>
+                                </ns4:position>
+                                <ns4:time>
+                                    <ns4:relativeTimeFromInitialPredictionPoint>PT0H43M03S
+                                    </ns4:relativeTimeFromInitialPredictionPoint>
+                                </ns4:time>
+                            </ns4:point4D>
+                        </ns4:element>
+                        <ns4:routeInformation xsi:type="ns4:FficeFS_FlightRouteInformationType">
+                            <ns4:cruisingLevel>
+                                <ns3:altitude uom="FT">34000.0</ns3:altitude>
+                            </ns4:cruisingLevel>
+                            <ns4:cruisingSpeed uom="KT">429</ns4:cruisingSpeed>
+                            <ns4:extension xsi:type="ns5:NmFlightRouteInformationExtensionType">
+                                <ns5:routeText>VIZAN T673 XERPA DCT LARMA/N0330A110 DCT ELVIX L975 TIDVU</ns5:routeText>
+                            </ns4:extension>
+                            <ns4:totalEstimatedElapsedTime>PT0H46M00S</ns4:totalEstimatedElapsedTime>
+                        </ns4:routeInformation>
+                    </ns4:agreed>
+                </ns4:routeTrajectoryGroup>
+            </ns2:flight>
+            <ns2:operatorFlightPlanVersion>1</ns2:operatorFlightPlanVersion>
+            <ns2:type>FILING_STATUS</ns2:type>
+        </filingStatus_v1_1>
+        <submissionResponse_v1_1>
+            <ns2:flight xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns4:FficeSR_FlightType">
+                <ns4:extension xsi:type="ns5:NmFlightExtensionType">
+                    <ns5:ifpsIdentifier>AT04675349</ns5:ifpsIdentifier>
+                </ns4:extension>
+                <ns4:flightIdentification xsi:type="ns4:FficeSR_FlightIdentificationType">
+                    <ns4:gufi creationTime="2024-02-22T13:25:19Z" namespaceDomain="OPERATING_AGENCY_DESIGNATOR"
+                              namespaceIdentifier="BOEING.COM" codeSpace="urn:uuid">6BFCB202-DB63-4658-8D3B-3E37E010B44D
+                    </ns4:gufi>
+                </ns4:flightIdentification>
+            </ns2:flight>
+            <ns2:referencedMessageIdentifier codeSpace="urn:uuid">B51AE7B3-FF37-4690-838D-005ED8B0646E
+            </ns2:referencedMessageIdentifier>
+            <ns2:submissionStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                  xsi:type="ns2:FficeSR_SubmissionStatusType">
+                <ns2:value>ACK</ns2:value>
+            </ns2:submissionStatus>
+            <ns2:type>SUBMISSION_RESPONSE</ns2:type>
+        </submissionResponse_v1_1>
+    </data>
+</ns6:FiledFlightPlanReply>

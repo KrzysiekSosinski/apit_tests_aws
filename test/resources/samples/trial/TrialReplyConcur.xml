@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns6:TrialReply xmlns:ns2="http://www.fixm.aero/app/ffice/1.1" xmlns:ns3="http://www.fixm.aero/base/4.3"
+                xmlns:ns4="http://www.fixm.aero/flight/4.3" xmlns:ns5="http://www.eurocontrol.int/nm/fixm/ext/1.5"
+                xmlns:ns6="eurocontrol/cfmu/b2b/FficeServices">
+    <requestReceptionTime>2024-02-26 16:21:20</requestReceptionTime>
+    <requestId>B2B_CUR:28132174</requestId>
+    <sendTime>2024-02-26 16:21:20</sendTime>
+    <status>OK</status>
+    <data>
+        <trialResponse_v1_1>
+            <ns2:flight xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns4:FficeTRP_FlightType">
+                <ns4:arrival xsi:type="ns4:FficeTRP_ArrivalType"/>
+                <ns4:departure xsi:type="ns4:FficeTRP_DepartureType"/>
+                <ns4:flightIdentification xsi:type="ns4:FficeTRP_FlightIdentificationType">
+                    <ns4:aircraftIdentification>BOE1234</ns4:aircraftIdentification>
+                    <ns4:gufi creationTime="2024-02-26T16:21:19Z" namespaceDomain="OPERATING_AGENCY_DESIGNATOR"
+                              namespaceIdentifier="BOEING.COM" codeSpace="urn:uuid">BBB56D7D-9A5B-4A4D-B996-3F6CC59148DE
+                    </ns4:gufi>
+                </ns4:flightIdentification>
+            </ns2:flight>
+            <ns2:planningStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                xsi:type="ns2:FficeTRP_PlanningStatusType">
+                <ns2:value>CONCUR</ns2:value>
+            </ns2:planningStatus>
+            <ns2:referencedMessageIdentifier codeSpace="urn:uuid">B8B4609C-352D-4A82-B0FF-9126969784EC
+            </ns2:referencedMessageIdentifier>
+            <ns2:type>TRIAL_RESPONSE</ns2:type>
+        </trialResponse_v1_1>
+        <submissionResponse_v1_1>
+            <ns2:flight xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns4:FficeSR_FlightType">
+                <ns4:flightIdentification xsi:type="ns4:FficeSR_FlightIdentificationType">
+                    <ns4:gufi creationTime="2024-02-26T16:21:19Z" namespaceDomain="OPERATING_AGENCY_DESIGNATOR"
+                              namespaceIdentifier="BOEING.COM" codeSpace="urn:uuid">BBB56D7D-9A5B-4A4D-B996-3F6CC59148DE
+                    </ns4:gufi>
+                </ns4:flightIdentification>
+            </ns2:flight>
+            <ns2:referencedMessageIdentifier codeSpace="urn:uuid">B8B4609C-352D-4A82-B0FF-9126969784EC
+            </ns2:referencedMessageIdentifier>
+            <ns2:submissionStatus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                  xsi:type="ns2:FficeSR_SubmissionStatusType">
+                <ns2:value>ACK</ns2:value>
+            </ns2:submissionStatus>
+            <ns2:type>SUBMISSION_RESPONSE</ns2:type>
+        </submissionResponse_v1_1>
+    </data>
+</ns6:TrialReply>

@@ -1,0 +1,26 @@
+{
+        "aud": "COMMON-JWT",
+        "ifs": {
+        "spAttrs": null,
+        "mainupn": null,
+        "mainorganizationid": null,
+        "assurancescore": null,
+        "assurancelevel": null
+        },
+        "iss": "PingAccessAuthToken",
+        "fp": {
+        "subject": "x509DeviceTLSAdapter1::CN=Boeing Basic Assurance Software Issuing CA G3,OU=certservers,O=Boeing,C=US::847428894204372929999936561484836550083719636",
+        "authnSource": "x509DeviceTLSAdapter1"
+        },
+        "cert": {
+        "subsidiarycompanyID": null,
+        "Issuer": "CN=Boeing Basic Assurance Software Issuing CA G3,OU=certservers,O=Boeing,C=US",
+        "subject": "CN=testclientcert.fedp.digitalaviationservices.com,OU=servers,O=Boeing,C=US",
+        "subsidiaryID": null,
+        "boeingCompanyID": "test",
+        "serviceID": "FPX_mock_x509_client",
+        "serialNo": -1541638447444151800
+        },
+        "exp": 1581704361,
+        "iat": 158170382
+}

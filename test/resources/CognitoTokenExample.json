@@ -1,0 +1,16 @@
+{
+        "at_hash": "Kso2o4dynEuNTndxSldq-Q",
+        "sub": "618fb101-ef7f-49e9-9994-2047fd05aa4b",
+        "custom:operatorName": "mockClient",
+        "email_verified": false,
+        "iss": "https://cognito-idp.us-west-2.amazonaws.com/us-west-2_O1rS1Lybh",
+        "cognito:username": "jasonatest@jeppesen.com",
+        "aud": [ "s16nmui69eohfla458u8gcrcn" ],
+        "token_use": "id",
+        "auth_time": 1571885685,
+        "custom:operatorId": "mockclient",
+        "exp": 1571889285,
+        "custom:role": "USER",
+        "iat": 1571885686,
+        "email": "jasonatest@jeppesen.com"
+}
